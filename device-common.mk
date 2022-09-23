@@ -268,7 +268,7 @@ PRODUCT_PACKAGES += \
 
 # SamsungDoze
 PRODUCT_PACKAGES += \
-    SamsungDoze
+    ParanoidDoze
 
 # Seccomp filters
 PRODUCT_COPY_FILES += \
