@@ -152,9 +152,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light-service.samsung
 
-# Livedisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service.universal8895
+# Livedisplay (aospa do not have that product)
+#PRODUCT_PACKAGES += \
+#    vendor.lineage.livedisplay@2.0-service.universal8895
 
 # LPM
 PRODUCT_PACKAGES += \
@@ -314,8 +314,8 @@ PRODUCT_PACKAGES += \
     textclassifier.bundle1
 
 # Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
+#PRODUCT_PACKAGES += \
+#    vendor.lineage.trust@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \
@@ -323,7 +323,7 @@ PRODUCT_PACKAGES += \
 
 # Vendor security patch level
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.lineage.build.vendor_security_patch=2021-04-01
+    ro.aospa.build.vendor_security_patch=2021-04-01
 
 # Protobuf
 PRODUCT_COPY_FILES += \
