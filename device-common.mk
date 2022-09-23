@@ -266,9 +266,9 @@ PRODUCT_PACKAGES += \
     libxml2 \
     secril_config_svc
 
-# SamsungDoze
+# ParanoidDoze
 PRODUCT_PACKAGES += \
-    SamsungDoze
+    ParanoidDoze
 
 # Seccomp filters
 PRODUCT_COPY_FILES += \
